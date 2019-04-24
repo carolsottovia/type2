@@ -1,0 +1,26 @@
+{
+  "name": "type2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "target/index.js",
+  "scripts": {
+    "start": "node .",
+    "postinstall": "tsc -p .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/koa": "^2.0.48",
+    "@types/koa-bodyparser": "^4.2.2",
+    "@types/koa-multer": "^1.0.0",
+    "@types/koa-router": "^7.0.40",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-multer": "^1.0.2",
+    "koa-router": "^7.4.0",
+    "routing-controllers": "^0.7.7",
+    "typescript": "^3.4.5"
+  }
+}
